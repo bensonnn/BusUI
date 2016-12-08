@@ -1,0 +1,142 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 768px) {
+  body .container {
+    margin: 0;
+    padding: 0;
+  }
+}
+.stop {
+  color: #fff;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stop.color1 {
+  transition-property: background;
+  transition-duration: 0.2s;
+  background: #3498db;
+}
+.stop.color1:hover {
+  background: #419fdd;
+}
+.stop.color2 {
+  transition-property: background;
+  transition-duration: 0.2s;
+  background: #16a085;
+}
+.stop.color2:hover {
+  background: #18ad90;
+}
+.stop.color3 {
+  transition-property: background;
+  transition-duration: 0.2s;
+  background: #2c3e50;
+}
+.stop.color3:hover {
+  background: #31465a;
+}
+.stop.color4 {
+  transition-property: background;
+  transition-duration: 0.2s;
+  background: #7f8c8d;
+}
+.stop.color4:hover {
+  background: #879394;
+}
+.stop.color5 {
+  transition-property: background;
+  transition-duration: 0.2s;
+  background: #f39c12;
+}
+.stop.color5:hover {
+  background: #f4a221;
+}
+.stop.color6 {
+  transition-property: background;
+  transition-duration: 0.2s;
+  background: #1abc9c;
+}
+.stop.color6:hover {
+  background: #1cc9a7;
+}
+.stop.color7 {
+  transition-property: background;
+  transition-duration: 0.2s;
+  background: #e74c3c;
+}
+.stop.color7:hover {
+  background: #e9594a;
+}
+.stop.color8 {
+  transition-property: background;
+  transition-duration: 0.2s;
+  background: #8e44ad;
+}
+.stop.color8:hover {
+  background: #9749b7;
+}
+.stop.color9 {
+  transition-property: background;
+  transition-duration: 0.2s;
+  background: #e67e22;
+}
+.stop.color9:hover {
+  background: #e88630;
+}
+.stop.color10 {
+  transition-property: background;
+  transition-duration: 0.2s;
+  background: #bdc3c7;
+}
+.stop.color10:hover {
+  background: #c5cbce;
+}

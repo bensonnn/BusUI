@@ -1,0 +1,36 @@
+$gutter = 16px
+colors = {
+  color1: #3498db
+  color2: #16a085
+  color3: #2c3e50
+  color4: #7f8c8d
+  color5: #f39c12
+  color6: #1abc9c
+  color7: #e74c3c
+  color8: #8e44ad
+  color9: #e67e22
+  color10: #bdc3c7
+}
+
+body
+  font-family 'Roboto', sans-serif
+  @media (max-width: 768px)
+    .container
+      margin 0
+      padding 0
+
+.stop
+  color #fff
+  for name, color in colors
+    &.{name}
+      transition-property background
+      transition-duration .2s
+      background: color
+      &:hover
+        background: lighten(color, 3)
+
+    height 200px
+    display flex
+    flex-direction column
+    justify-content center
+    align-items center
