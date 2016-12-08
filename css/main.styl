@@ -5,22 +5,39 @@ colors = {
   color3: #2c3e50
   color4: #7f8c8d
   color5: #f39c12
-  color6: #1abc9c
+  color6: #34495e
   color7: #e74c3c
   color8: #8e44ad
   color9: #e67e22
-  color10: #bdc3c7
+  color10: #1abc9c
 }
 
 body
   font-family 'Roboto', sans-serif
+  min-width 230px
   @media (max-width: 768px)
     .container
       margin 0
       padding 0
 
 .stop
-  color #fff
+  .fa
+    margin-bottom 13px
+
+  .stop-name
+    font-size 4rem
+    font-weight 200
+    text-transform uppercase
+
+  .route
+    font-size 1.3rem
+    font-weight 200
+    margin-bottom 5px
+
+  .highlight
+    font-weight 400
+    font-size 1.5rem
+
   for name, color in colors
     &.{name}
       transition-property background
@@ -29,8 +46,10 @@ body
       &:hover
         background: lighten(color, 3)
 
-    height 200px
-    display flex
-    flex-direction column
-    justify-content center
-    align-items center
+  color #fff
+  height 220px
+  display flex
+  flex-direction column
+  justify-content center
+  align-items center
+  box-shadow inset 0px 0px 42px -19px rgba(0,0,0,0.45)

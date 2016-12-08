@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  min-width: 230px;
 }
 @media (max-width: 768px) {
   body .container {
@@ -9,56 +10,29 @@ body {
 }
 .stop {
   color: #fff;
-  height: 200px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  box-shadow: inset 0px 0px 42px -19px rgba(0,0,0,0.45);
+}
+.stop .fa {
+  margin-bottom: 13px;
+}
+.stop .stop-name {
+  font-size: 4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.stop .route {
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+.stop .highlight {
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 .stop.color1 {
   transition-property: background;
@@ -103,10 +77,10 @@ body {
 .stop.color6 {
   transition-property: background;
   transition-duration: 0.2s;
-  background: #1abc9c;
+  background: #34495e;
 }
 .stop.color6:hover {
-  background: #1cc9a7;
+  background: #395168;
 }
 .stop.color7 {
   transition-property: background;
@@ -135,8 +109,8 @@ body {
 .stop.color10 {
   transition-property: background;
   transition-duration: 0.2s;
-  background: #bdc3c7;
+  background: #1abc9c;
 }
 .stop.color10:hover {
-  background: #c5cbce;
+  background: #1cc9a7;
 }
